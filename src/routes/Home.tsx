@@ -1,10 +1,11 @@
 import React from "react";
+
 import { StyleSheet, Text, View } from "react-native";
 
-export default function App() {
+function Home() {
   return (
     <View style={styles.container}>
-      <Text>Init game</Text>
+      <Text>Init</Text>
     </View>
   );
 }
@@ -17,3 +18,5 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 });
+
+export default Home;
